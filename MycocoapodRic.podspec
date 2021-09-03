@@ -7,7 +7,7 @@
 #
 Pod::Spec.new do |spec|
   spec.name         = "MycocoapodRic"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Pod creado para hacer pruebas de pod publico"
   spec.description  = <<-DESC
   Pod creado para hacer pruebas de pod publico parajwndjwndjknwejkdnwjkendkjwendjwndjewn

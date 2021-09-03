@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		7940DD0126E197D500A067F2 /* Mycocoapod.h in Headers */ = {isa = PBXBuildFile; fileRef = 7940DCFF26E197D500A067F2 /* Mycocoapod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7940DD0A26E197F500A067F2 /* MyCocoapod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7940DD0926E197F500A067F2 /* MyCocoapod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7940DCFC26E197D500A067F2 /* Mycocoapod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mycocoapod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7940DCFF26E197D500A067F2 /* Mycocoapod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mycocoapod.h; sourceTree = "<group>"; };
 		7940DD0026E197D500A067F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7940DD0926E197F500A067F2 /* MyCocoapod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCocoapod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +48,19 @@
 		7940DCFE26E197D500A067F2 /* Mycocoapod */ = {
 			isa = PBXGroup;
 			children = (
+				7940DD0726E197DB00A067F2 /* Classes */,
 				7940DCFF26E197D500A067F2 /* Mycocoapod.h */,
 				7940DD0026E197D500A067F2 /* Info.plist */,
 			);
 			path = Mycocoapod;
+			sourceTree = "<group>";
+		};
+		7940DD0726E197DB00A067F2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7940DD0926E197F500A067F2 /* MyCocoapod.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +105,7 @@
 				TargetAttributes = {
 					7940DCFB26E197D500A067F2 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -130,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7940DD0A26E197F500A067F2 /* MyCocoapod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +274,7 @@
 		7940DD0526E197D500A067F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = ZVBPCNSV26;
@@ -277,6 +291,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.richard.Mycocoapod;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +300,7 @@
 		7940DD0626E197D500A067F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = ZVBPCNSV26;

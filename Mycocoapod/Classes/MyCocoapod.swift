@@ -10,4 +10,10 @@ public class MyCocoapod {
     public func helloWorld() {
         print("MY COCOAPOD!!!!")
     }
+    public static func hello2() {
+        print("MY COCOAPOD 2 !!!!")
+    }
+    func hello3() {
+        print("MY COCOAPOD 3 !!!!")
+    }
 }

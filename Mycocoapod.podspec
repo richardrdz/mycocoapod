@@ -6,7 +6,7 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 Pod::Spec.new do |spec|
-  spec.name         = "Mycocoapod"
+  spec.name         = "MycocoapodRic"
   spec.version      = "0.0.1"
   spec.summary      = "Pod creado para hacer pruebas de pod publico"
   spec.description  = <<-DESC
